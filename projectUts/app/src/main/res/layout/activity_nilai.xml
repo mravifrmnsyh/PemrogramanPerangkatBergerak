@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Blue"
+    android:layout_height="match_parent"
+    tools:context=".nilai">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/Blue"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btnUser"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/bgicon"
+                android:clickable="true"
+                android:onClick="aksiUser"
+                android:src="@drawable/ic_baseline_person_24" />
+
+            <TextView
+                android:id="@+id/txtOut"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_margin="16dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/popupform"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ucpn"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtHsl"
+            android:layout_width="match_parent"
+            android:textSize="150dp"
+            android:elegantTextHeight="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:onClick="aksiBack"
+            android:layout_width="match_parent"
+            android:text="Kembali"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/radius"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

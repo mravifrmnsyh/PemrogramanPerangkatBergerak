@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Blue"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="PSYCHOAPP"
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/btnInfo"
+                android:layout_width="25dp"
+                android:onClick="aksiInfo"
+                android:clickable="true"
+                android:background="@drawable/bgicon"
+                android:src="@drawable/ic_baseline_info_24"
+                android:layout_margin="15dp"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="SELAMAT DATANG"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Silakan isi data diri untuk mengikuti ujian"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/Blue"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/popupform"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="MASUK"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="Nama"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=":"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="Umur"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=":"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/umur"
+                    android:inputType="number"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="Telp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=":"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/telp"
+                    android:inputType="phone"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="Gender"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=":"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <Spinner
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMsk"
+                android:onClick="aksiMasuk"
+                android:layout_width="match_parent"
+                android:text="Masuk"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:background="@drawable/radius"
+                android:layout_margin="25dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

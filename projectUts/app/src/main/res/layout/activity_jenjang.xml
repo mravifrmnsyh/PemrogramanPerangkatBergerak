@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue"
+    android:orientation="vertical"
+    tools:context=".jenjang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/Blue"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/btnUser"
+                android:onClick="aksiUser"
+                android:layout_width="25dp"
+                android:background="@drawable/bgicon"
+                android:src="@drawable/ic_baseline_person_24"
+                android:clickable="true"
+                android:layout_margin="15dp"
+                android:layout_height="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="PSYCHOAPP"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_margin="16dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="end"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/btnInfo"
+                    android:layout_width="25dp"
+                    android:onClick="aksiInfo"
+                    android:clickable="true"
+                    android:background="@drawable/bgicon"
+                    android:src="@drawable/ic_baseline_info_24"
+                    android:layout_margin="15dp"
+                    android:layout_height="25dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/radiusjenjang"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtOut"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/radius"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtUmr"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"/>
+
+                <TextView
+                    android:id="@+id/txtHsl"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/popupform"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:text="Selamat Datang"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@mipmap/ic_jenjang"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_height="150dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Kalian akan mengerjakan soal psikotes, jawablah dengan benar dan teliti, tidak ada batasan waktu dalam pengerjaan."
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Untuk ketentuan soal, ada 10 soal yang harus dikerjakan dan syarat lulus minimal 7 soal benar."
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Selamat Mengerjakan..."
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnBack"
+                android:onClick="akksiBack"
+                android:layout_width="wrap_content"
+                android:text="Kembali"
+                android:textSize="16dp"
+                android:background="@drawable/radius"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="10dp"/>
+            <Button
+                android:id="@+id/btnMulai"
+                android:onClick="akksiMulai"
+                android:layout_width="wrap_content"
+                android:text="Mulai"
+                android:textSize="16dp"
+                android:background="@drawable/radius"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/radiuspopup"
+    android:layout_height="475dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="TATA CARA"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="1. Masuk dengan mengisi nama, umur, no telepon, dan jenis kelamin.\n2. Kerjakan soal yang ada dengan teliti.\n3. Setelah selesai nilai akan muncul."
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="KETENTUAN"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="Soal bertipe pilihan dengan setiap soal berniai 10 jika benar dan 0 jika salah, untuk syarat kelulusan minimal adalah mendapat 70 atau 7 soal benar. Tidak ada batasan waktu dalam mengerjakan soal.\n\nSelamat Mengerjakan."
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnTutup"
+            android:layout_width="wrap_content"
+            android:text="Tutup"
+            android:background="@drawable/radius"
+            android:textSize="15dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/bgicon.xml" value="0.1125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/ic_jenjang_background.xml" value="0.2203125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/ic_round_person_24.xml" value="0.2203125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/popupform.xml" value="0.2203125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/radius.xml" value="0.1125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/radiusjenjang.xml" value="0.2203125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/radiuspopup.xml" value="0.1125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/radiussoal.xml" value="0.2203125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/drawable/raidiusform.xml" value="0.2203125" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/activity_jenjang.xml" value="0.25" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/activity_nilai.xml" value="0.20416666666666666" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/activity_pembayaran.xml" value="0.22" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/activity_soal.xml" value="0.33" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/activity_user.xml" value="0.25" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/popselesai.xml" value="0.20416666666666666" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/popupinfo.xml" value="0.33" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/popupnilai.xml" value="0.20416666666666666" />
+        <entry key="..\:/Data/Ravi/Udinus/Semester5/Pemrograman Perangkat Bergerak/Latihan/projectUts/app/src/main/res/layout/radiusjenjang.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
