@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/dashboard"
+        android:gravity="center"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Data Kependudukan"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Input Data"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Nama"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/idNama"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="NIK"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/idNik"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="TTL"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/idTtl"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Alamat"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/idAlamat"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="No. Telp"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/idTelp"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Gender"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <Spinner
+                    android:id="@+id/idGender"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/idTampil"
+                    android:layout_width="wrap_content"
+                    android:text="Tampil"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="20dp"/>
+                <Button
+                    android:id="@+id/idUpdate"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="Update"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="20dp"/>
+                <Button
+                    android:id="@+id/idDelete"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="Delete"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="20dp"/>
+                <Button
+                    android:id="@+id/idSimpan"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="Simpan"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/idReset"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:textAllCaps="false"
+                android:text="Reset"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
