@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/blueMuda"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="WarApp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/radius">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@drawable/pend2"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="150dp"/>
+
+        <EditText
+            android:id="@+id/idNmLog"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:paddingLeft="10dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:fontFamily="@font/aclonica"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/idPassLog"
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:paddingLeft="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:fontFamily="@font/aclonica"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/idMasuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/blue"
+            android:layout_marginTop="30dp"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
